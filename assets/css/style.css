@@ -215,7 +215,9 @@ footer {
 }
 
 footer a, a:hover {
-    color: #78c3ff;
+    color: #ffffff;
+    font-family: "Droid Serif";
+    font-size: 15px;
 }
 
 
