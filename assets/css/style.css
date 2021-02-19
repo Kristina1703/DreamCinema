@@ -1,14 +1,18 @@
 /* @link https://colorscheme.ru/#4t41TKjkIw0w0 */
 
-.header a, a:hover {
+.header .header-logo a,
+.header .header-logo a:hover {
     color: #bbbbbb;
     text-decoration: none;
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    display: block;
-    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
-}
+    display: initial;
+    background-image: -webkit-gradient(linear, left top, right top,
+        color-stop(0, #f22),
+        color-stop(0.5, #f2f),
+        color-stop(1, #22f)
+    );
 }
 
 p {
@@ -193,12 +197,12 @@ textarea.form-control {
     height: 200px;
 }
 
-.table tbody>tr>td.vert-align {
+.table tbody > tr > td.vert-align {
     vertical-align: center;
     color: #ffffff;
 }
 
-.table-hover>tbody>tr:hover {
+.table-hover > tbody > tr:hover {
     background-color: rgb(65 26 119 / 45%);
     transition: background-color 100ms linear;
 }
