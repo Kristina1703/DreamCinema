@@ -101,9 +101,17 @@ html, body {
     height: 260px;
 }
 
+.film_block {
+    margin-bottom: 25px;
+}
+
 .film_block img {
     width: 100%;
     height: 100%;
+}
+
+.serial_block {
+    margin-bottom: 25px;
 }
 
 .serial_block img {
@@ -214,11 +222,36 @@ footer {
     border-top: 1px solid #200249;
 }
 
-footer a, a:hover {
+footer a {
     color: #ffffff;
     font-family: "Droid Serif";
-    font-size: 15px;
 }
 
+.button--icon {
+    width: 26px;
+    height: 26px;
+    font-size: 16px;
+    line-height: 28px;
+    position: relative;
+    display: inline-block;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 250ms linear;
+    opacity: 0.8;
+}
 
+.button--icon:hover,
+.button--icon:active {
+    color: #fff;
+    opacity: 1;
+}
+
+.button--instagram {
+    background: linear-gradient(29.61deg, #f38334 0%, #da2e7d 50.39%, #6b54c6 100%);
+    color: #fff;
+}
 
